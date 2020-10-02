@@ -53,4 +53,9 @@ class Randomize
     {
         return new Datetime();
     }
+
+    public static function char()
+    {
+        return new Char();
+    }
 }
